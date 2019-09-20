@@ -71,6 +71,7 @@
 }
 .certsMobile{
     margin-top: 20px;
+        margin-bottom: -15px;
 
 }
 </style>

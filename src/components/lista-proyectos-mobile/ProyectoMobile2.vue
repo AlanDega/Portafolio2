@@ -15,7 +15,9 @@
     <v-list-item three-line>
       <v-list-item-content>
         <v-list-item-title class="titleList">DegaArcade</v-list-item-title>
-        <v-list-item-subtitle class="subtitle">Esta aplicación es un juego de memoria, tienes que recordar el patrón de los colores que se iluminaron.
+        <v-list-item-subtitle class="subtitle">Esta aplicación es un juego de memoria, tienes que recordar
+            </v-list-item-subtitle>
+        <v-list-item-subtitle class="subtitle">el patrón de los colores que se iluminaron.
             </v-list-item-subtitle>
         <v-list-item-subtitle class="subtitle">tiene 10 niveles, ganes o pierdas el juego se reinicia automáticamente.
             </v-list-item-subtitle>

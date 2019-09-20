@@ -15,9 +15,9 @@
 </template>
 
 <script>
-     import PmProyectoMobile1 from '@/components/proyectos-mobile/ProyectoMobile1.vue'
-     import PmProyectoMobile2 from '@/components/proyectos-mobile/ProyectoMobile2.vue'
-     import PmProyectoMobile3 from '@/components/proyectos-mobile/ProyectoMobile3.vue'
+     import PmProyectoMobile1 from '@/components/lista-proyectos-mobile/ProyectoMobile1.vue'
+     import PmProyectoMobile2 from '@/components/lista-proyectos-mobile/ProyectoMobile2.vue'
+     import PmProyectoMobile3 from '@/components/lista-proyectos-mobile/ProyectoMobile3.vue'
     export default {
         components:{
             PmProyectoMobile1,
@@ -32,5 +32,8 @@
 .titleListMobile{
     color: #4200FF;
     margin-bottom: 5px;
+}
+.proyectosTitle{
+    margin-bottom: -15px;
 }
 </style>

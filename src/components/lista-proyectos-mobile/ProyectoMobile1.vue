@@ -18,14 +18,12 @@
         <v-list-item-subtitle class="subtitle" style="font-size:14px"> Interfaz Gráfica con 
             </v-list-item-subtitle>
         <v-list-item-subtitle class="subtitle" style="font-size:14px"> 
-                                    animaciones para aplicación
+                                    animaciones para aplicación de streaming.
             </v-list-item-subtitle>
 
-        <v-list-item-subtitle class="subtitle" style="font-size:14px"> de streaming  </v-list-item-subtitle>
-        <v-list-item-subtitle class="subtitle"style="font-size:14px">  </v-list-item-subtitle>
+        <v-list-item-subtitle class="subtitle"style="font-size:14px"> 
          El usuario puede interactuar con los elementos para obtener más información.
             </v-list-item-subtitle>
-                    <v-list-item-subtitle class="subtitle"> con este tema desarrollé las páginas de Log in, Sign Up y 404. </v-list-item-subtitle>
 
       </v-list-item-content>
     </v-list-item>
@@ -51,7 +49,7 @@
      </v-row>
                       <v-row align="center" justify="center">
                         <v-col cols="4" justify="center">
-                      <v-btn dark>Código</v-btn>
+                      <v-btn dark href="https://github.com/AlanDega/Dega-Vid">Código</v-btn>
 
                         </v-col>
                         <v-col cols="4">

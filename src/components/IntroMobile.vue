@@ -22,20 +22,17 @@
     <span class="greenText"> " </span>
 <!-- se puede hacer más proeficiente si el texto en blanco no se pone en span -->
     <span class="whiteText"> AlanDega </span>
-    <span class="greenText"> "; </span>
+    <span class="greenText"> ", </span>
     </p>
     <p>
     <span class="blueText"> desarrollador </span>
-    <!-- <span class="greenText"> :'<span> </span>'   </span> -->
     <span class="greenText"> : </span>
     <span class="purpleText"> true </span>
     <span class="greenText"> , </span>
     </p>
     <p>
     <span class="blueText"> especialidad </span>
-    <!-- <span class="greenText"> :'<span> </span>'   </span> -->
     <span class="greenText"> : </span>
-    <span class="greenText"> , </span>
     <span class="whiteText"> <span class="greenText">"</span> FrontEnd <span class="greenText">"</span> </span>
     <span class="purpleText">}</span>
     </p>
