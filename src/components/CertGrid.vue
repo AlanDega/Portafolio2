@@ -1,29 +1,27 @@
 <template>
-    <div>
-<v-container >
-    <div class="d-none d-md-flex">
-<h1 class="certs" >Certificados</h1>
-</div>
-<div class="d-flex d-sm-flex d-md-none">
-<h1 class="certsMobile" style="font-size:20px">Certificados</h1>
-</div>
-          <v-divider color="blue" class="divider" ></v-divider>
-
-    <v-row>
+  <div>
+    <v-container >
+      <div class="d-none d-md-flex">
+        <h1 class="certs" >Certificados</h1>
+      </div>
+      <div class="d-flex d-sm-flex d-md-none">
+        <h1 class="certsMobile" style="font-size:20px">Certificados</h1>
+      </div>
+      <v-divider color="blue" class="divider" ></v-divider>
+      <v-row>
         <v-col cols="4" v-for="cert in certificados">
-            <v-hover v-slot:default="{ hover }">
-          <v-card @click="sendUrl"
-                  :href="cert.link"
-                    :elevation="hover ? 12 : 2"
-          >
-            <v-img :src="cert.cert"></v-img>
-          </v-card>
-                </v-hover>
+          <v-hover v-slot:default="{ hover }">
+            <v-card 
+              @click="sendUrl"
+              :href="cert.link"
+              :elevation="hover ? 12 : 2" >
+              <v-img :src="cert.cert"></v-img>
+            </v-card>
+          </v-hover>
         </v-col>
-        
-    </v-row>
-</v-container>
-    </div>
+      </v-row>
+    </v-container>
+  </div>
 </template>
 
 <script>
