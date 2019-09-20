@@ -1,17 +1,19 @@
 <template>
-   <div class="d-flex d-sm-flex d-md-none">
-<v-container class="proyecto1" > 
-
-    <h1 class="proyectosTitle" style="font-size:20px" >Proyectos</h1>
-          <v-divider color="blue" class="divider" ></v-divider>
-<PmProyectoMobile1/>
-          <v-divider color="blue" class="divider" ></v-divider>
-<PmProyectoMobile2/>
-           <v-divider color="blue" class="divider" ></v-divider>
-<PmProyectoMobile3/>
-           
-</v-container>
-    </div>
+  <div class="d-flex d-sm-flex d-md-none">
+    <v-container class="proyecto1" > 
+      <h1 
+      class="proyectosTitle" 
+      style="font-size:20px" >
+      Proyectos
+      </h1>
+      <v-divider color="blue" class="divider" ></v-divider>
+      <PmProyectoMobile1/>
+      <v-divider color="blue" class="divider" ></v-divider>
+      <PmProyectoMobile2/>
+      <v-divider color="blue" class="divider" ></v-divider>
+      <PmProyectoMobile3/>
+    </v-container>
+  </div>
 </template>
 
 <script>

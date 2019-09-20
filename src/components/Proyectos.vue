@@ -1,15 +1,15 @@
 <template>
-    <div class="d-none d-md-flex">
-<v-container class="proyecto1" > 
-
-    <h1 class="proyectosTitle" >Proyectos</h1>
-          <v-divider color="blue" class="divider" ></v-divider>
-          <PmProyecto1/>
-          <PmProyecto2/>
-          <PmProyecto3/>
-
-</v-container>
-    </div>
+  <div class="d-none d-md-flex">
+    <v-container class="proyecto1" > 
+      <h1 class="proyectosTitle" >
+        Proyectos
+      </h1>
+      <v-divider color="blue" class="divider" ></v-divider>
+      <PmProyecto1/>
+      <PmProyecto2/>
+      <PmProyecto3/>
+    </v-container>
+  </div>
 </template>
 
 <script>
