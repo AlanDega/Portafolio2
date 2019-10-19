@@ -7,7 +7,6 @@
       <div class="d-flex d-sm-flex d-md-none">
         <h1 class="certsMobile" style="font-size:20px">Certificados</h1>
       </div>
-      <v-divider color="blue" class="divider" ></v-divider>
       <v-row>
         <v-col cols="4" v-for="cert in certificados">
           <v-hover v-slot:default="{ hover }">
@@ -62,10 +61,10 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .certs{
     margin-top: 40px;
-    margin-bottom: -15px;
+    margin-bottom: -50px;
 }
 .certsMobile{
     margin-top: 20px;

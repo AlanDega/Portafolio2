@@ -33,7 +33,7 @@
         </a>
       </div>    
     </v-app-bar>
-    <v-content>
+    <v-content >
       <router-view></router-view>
     </v-content>
   </v-app>

@@ -1,5 +1,5 @@
 <template>
-<div>
+<div >
   <v-container fluid class="hero" align-items="center" fill-height >
     <v-row justify="center" align="center" class="row1">
       <v-col cols="9" justify="center" align="center">
@@ -7,11 +7,17 @@
         <Intro/>
       </v-col> 
     </v-row>
-  </v-container >
-  <CertGrid/>
+  </v-container>
+  <div class="caru">
+ <CertCarousel/>
+
+  </div>
+
+  </v-container>
+  <!-- <CertGrid/> -->
   <v-container>
     <v-row align="center" justify="center" >
-      <v-btn dark href="https://platzi.com/@alandega/">Ver todas las certificaciones</v-btn>
+      <v-btn dark href="https://platzi.com/@alandega/">Ver todos los certificados</v-btn>
       <!-- on hover goes to purple -->
     </v-row>
   </v-container>
@@ -33,6 +39,7 @@
 
 <script>
 import CertGrid from '@/components/CertGrid.vue'
+import CertCarousel from '@/components/CertCarousel.vue'
 import Footer from '@/components/layout/Footer.vue'
 import FooterMobile from '@/components/layout/FooterMobile.vue'
 import ProyectosMobile from '@/components/ProyectosMobile.vue'
@@ -46,6 +53,7 @@ import IntroMobile from '@/components/IntroMobile.vue'
       Intro,
       IntroMobile,
       CertGrid,
+      CertCarousel,
       Proyectos,
       ProyectosMobile,
       Footer,
@@ -59,6 +67,8 @@ import IntroMobile from '@/components/IntroMobile.vue'
       
 </script>
 <style>
+.caru{
+}
 .hero{
   background-color: #060715;
   width: 100%;
